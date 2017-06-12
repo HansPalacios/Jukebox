@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jukebox Player</title>
+	<link rel="stylesheet" type="text/css" href="sc.default.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<h1>Rock and roll babay!!</h1>
+		<div id="player">
+				<div id="info">
+				</div>
+				<audio></audio>
+				<div id="controls">
+				<i id="backward" class="fa fa-backward fa-2x"></i>
+				<i id="play" class="fa fa-play fa-2x"></i>
+				<i id="pause" class="fa fa-pause fa-2x"></i>
+				<i id="forward" class="fa fa-forward fa-2x"></i>
+				<i id="random" class="fa fa-random fa-2x"></i>
+
+				</div>
+		</div>
+		<div id="navigation">
+			<h3>Library</h3>
+			<br>
+			<h5>Add Song</h5>
+			<form id="search">
+ 		<input id="search" name="search" placeholder="Ex: Phish" />
+ 		<input id="submit" type="submit" value="Search" />
+ 		</form>
+ 		<ol id="results">
+ 
+ 		</ol>
+		
+		
+	<div id="volume"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.0.0/nouislider.js"></script> -->
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script src="sc.main.js"></script>
+</script>
+</body>
+</html>

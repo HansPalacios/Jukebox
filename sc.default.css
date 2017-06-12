@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 30px;
+	background-image: url(media/music-notes.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+	float: right;
+	text-align: center;
+	width: 600px;
+	margin: 100px 50px 20px auto;
+	color: #69000e;
+	text-shadow: 2px 1px #25080c;
+}
+/*#container {
+	height: 400px;
+	width: 600px;
+	float: right;
+	display: block;
+	margin: 50px;
+}*/
+#navigation {
+	height: auto;
+	width: 400px;
+	background-color: silver;
+	left: 0;
+	padding-bottom: 100px;
+}
+#navigation h3 {
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+/*#info {
+	height: 100px;
+	width: 300px;
+	background-color: beige;
+	text-align: center;f
+}*/
+#player {
+	height: 100px;
+	width: 400px;
+	background-color: black;
+	margin: 0;
+	float: left;
+}
+#audio {
+	width: 300px;
+}
+#search {
+	width: 100%;
+}
+input {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	height: 30px;
+}
+input  #type {
+	background-color: white;
+	width: 150px;
+}
+input #submit {
+	width: 30px
+}
+h5 {
+	color: white;
+	margin: auto;
+	font-size: 20px;
+	width: 100px;
+}
+#backward {
+	margin: 20px;
+}
+.fa {
+	text-align: center;
+	width: 20px;
+	margin: 20px;
+	color: #52000b;
+	text-shadow: 2px 1px black;
+}
+#pause {
+	display: none;
+}
+#src {
+	display: none;
+}
+#results {
+	font-size: 15px;
+}
+#art {
+	float: right;
+}
+li {
+	float: left;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+}
